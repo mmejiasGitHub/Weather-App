@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-31TSX35RJT"></script>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <form class="weatherForm">
+    <input type="text" class="cityInput" placeholder="Enter City Name">
+    <button type="submit" onclick="hideParagraph()">Get Weather</button>
+  </form>
+  
+  <div class="weather-container" id="myParagraph">
+    <h1 id="title">Search engine is very flexible. How it works:</h1>
+    <ul><li><p id="p1">To make it more precise put the city's name, comma, 2-letter country code (ISO3166). You will get all proper cities in chosen country.<br>
+      The order is important - the first is city name then comma then country. Example - San Juan, PR or New York, US.</p>
+    </li></ul>
+</div>
+
+  <div class="card" style="display: none">
+  </div>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
